@@ -1,0 +1,68 @@
+* {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+.initial {
+  color: #ffffff;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 1p0x;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 15vw;
+  border: 2px solid #64748b;
+  border-radius: 6px;
+  padding: 6px;
+  margin-right: 10px;
+}
+.delete-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+}
+.delete-icon {
+  height: 25px;
+  width: 25px;
+}
+.container {
+  font-weight: 500;
+}
